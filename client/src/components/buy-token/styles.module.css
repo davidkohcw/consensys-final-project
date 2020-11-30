@@ -1,0 +1,32 @@
+.actionBtn {
+    width: 180px;
+    height: 64px;
+    box-shadow: 0 8px 16px rgba(255, 67, 57, 0.16);
+}
+
+
+.actionBtn:disabled {
+    background-color: var(--bg-color-4);
+    color: var(--text-color-2);
+}
+
+.actionBtn:hover {
+    background-color: var(--bg-color-6);
+}
+
+.actionRow {
+    padding: 8px 24px 24px;
+}
+
+
+
+.labelPools {
+    margin-bottom: 16px;
+    margin-top:16px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    color: var(--text-color-5);
+}

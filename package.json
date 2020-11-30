@@ -1,0 +1,16 @@
+{
+  "name": "project-y",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "davidkohcw <davidkohcw@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@apollo/client": "^3.2.5",
+    "@openzeppelin/contracts": "^2.5.1",
+    "@truffle/hdwallet-provider": "^1.1.1",
+    "cross-fetch": "^3.0.6",
+    "esm": "^3.2.25",
+    "graphql": "^15.4.0",
+    "react": "^17.0.1"
+  }
+}

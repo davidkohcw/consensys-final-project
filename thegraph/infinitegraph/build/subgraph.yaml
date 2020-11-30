@@ -1,0 +1,23 @@
+specVersion: 0.0.2
+schema:
+  file: schema.graphql
+dataSources:
+  - kind: ethereum/contract
+    name: InfiniteCrowdsale
+    network: mainnet
+    source:
+      address: "0x5f069149FaE13E5359986d9bE5f3d2Fe091eC247"
+      abi: InfiniteCrowdsale
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.4
+      language: wasm/assemblyscript
+      entities:
+        - TokensPurchased
+      abis:
+        - name: InfiniteCrowdsale
+          file: InfiniteCrowdsale/abis/InfiniteCrowdsale.json
+      eventHandlers:
+        - event: TokensPurchased(indexed address,indexed address,uint256,uint256)
+          handler: handleTokensPurchased
+      file: InfiniteCrowdsale/InfiniteCrowdsale.wasm

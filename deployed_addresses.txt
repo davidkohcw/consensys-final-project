@@ -1,0 +1,10 @@
+
+
+
+# Address on Ropsten Test network
+
+1. InfiniteToken.sol Addreess: 0x5c5597d8512f17AeE4bE899B4Abed0B7aB291E96
+
+2. InfiniteCrowdsale address: 0x5f069149FaE13E5359986d9bE5f3d2Fe091eC247
+
+
