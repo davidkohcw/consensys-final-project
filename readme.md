@@ -1,14 +1,19 @@
 # Project Overview
 
+This project's goal was to be a neverending crowdsale of a token called "Infine (INFT)" along a bonding curve, whereby the price of the token increases as more tokens are purchased (minted from the bonding curve). A user who wants to purchase the token, will send ETHER to the bonding curve, and will get back the INFT token in return. ETHER sent to the bonding curve will then be sent to the wallet of the EOA account that deployed the contract. This bonding curve will allow the project owners to raise money and bootstrap the business expenses with oney raised. 
+
+The bonding curve does not allow people to sell back tokens.
 
 
 # A live deployment onto the ropsten network can be found here:
 
+https://stupefied-visvesvaraya-3163f8.netlify.app/
 
 
 
 
 # Deployment Steps
+
 0. Install any dependencies needed by running "yarn install" from both the top-level directory as well as the "./client" directory
 1. You will need to create a secrets.json file (you can refer to secrents-example.json as to what the format needed is)
 2. Run truffle migrate at the top level of the project directory (with a running ganache node)
@@ -34,6 +39,7 @@ This folder is where all the front-end code is kept
 
 
 # Related Documents:
+
 1. design_pattern_decisions.md
 
 This file explains the design patterns used and implemented throughout the project

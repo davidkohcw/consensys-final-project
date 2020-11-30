@@ -3,7 +3,6 @@
 This document highlights some design pattern decisions implemented throughout the contract
 
 
-
 ## Circuit breaker design
 A circuit breaker design was implemented that allows the crowdsale contract to pause it's purchase token functionality. This would be desirable in situations where there is a live contract where a bug has been detected.
 
